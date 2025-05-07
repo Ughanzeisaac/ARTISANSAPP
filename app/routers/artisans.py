@@ -3,10 +3,10 @@ from typing import Optional, List
 from datetime import datetime
 import logging
 
-from app.models.artisan import ArtisanInDB
-from app.schemas.artisan import ArtisanOut
-from app.utils.database import get_db
-from app.utils.security import get_current_client
+from models.artisan import ArtisanInDB
+from schemas.artisan import ArtisanOut
+from utils.database import get_db
+from utils.security import get_current_client
 
 artisans_router = APIRouter()
 
